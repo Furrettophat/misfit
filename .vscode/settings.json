@@ -1,0 +1,34 @@
+{
+	"[haxe]": {
+		"editor.formatOnSave": true,
+		"editor.formatOnPaste": true,
+		"editor.codeActionsOnSave": {
+			"source.sortImports": "explicit"
+		},
+		"editor.defaultFormatter": "nadako.vshaxe"
+	},
+	"[lua]": {
+		"editor.defaultFormatter": "yinfei.luahelper",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true
+	},
+	"lime.targetConfigurations": [
+		{
+			"label": "Windows / Debug (Result Screen Test)",
+			"target": "windows",
+			"args": [
+				"-debug",
+				"-DRESULTS"
+			]
+		},
+		{
+			"label": "Windows (NN Release)",
+			"target": "windows",
+			"args": [
+				"-release",
+				"-verbose",
+				"-clean"
+			]
+		}
+	],
+}
